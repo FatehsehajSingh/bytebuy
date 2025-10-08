@@ -6,7 +6,7 @@ import { IoCartOutline } from "react-icons/io5";
 
 function Navbar() {
     return (
-        <div className='bg-white text-black h-20 flex justify-between py-7 px-10 items-start  border-b-2 border-gray-300'>
+        <div className='bg-white text-black h-20 flex justify-between py-7 px-10 items-start  border-b-2 border-gray-300 sticky top-0'>
             <div className="logo font-bold text-2xl mx-10">ByteBuy</div>
             <ul className='flex gap-10 text-lg'>
                 <li>Home</li>
